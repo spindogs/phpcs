@@ -1,0 +1,8 @@
+{
+    "name": "spindogs/phpcs",
+    "type": "library",
+    "description": "Spindogs coding standards",
+    "require": {
+        "php": ">=5.6.4"
+    }
+}
