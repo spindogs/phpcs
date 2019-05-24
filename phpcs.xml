@@ -2,9 +2,6 @@
 <ruleset name="Spindogs">
     <description>Spindogs Coding Standards</description>
 
-    <exclude-pattern>*.blade.php</exclude-pattern>
-    <exclude-pattern>*.js</exclude-pattern>
-
     <arg name="tab-width" value="4"/>
 
     <!-- PSR1 -->
