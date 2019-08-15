@@ -70,10 +70,7 @@ Example:
 
 All methods MUST have a docblock associated with them. At the very minimum, this docblock MUST document the `@param` types for each method parameter.
 
-It is also recommended that every method SHOULD use the `@return` tag. Exceptions to this recommendation are:
-
-* constructors, the `@return` tag MAY be omitted here, in which case `@return self` is implied
-* functions and methods without a return value, the `@return` tag MAY be omitted here, in which case `@return void` is implied
+It is also recommended that every method SHOULD use the `@return` tag in order to keep docblocks consistent (use `@return void` for methods that have no return value).
 
 ### Control structures
 
@@ -120,11 +117,11 @@ At every opportunity, single quotes SHOULD be preferred for delimiting strings. 
 
 ### Arrays
 
-Arrays with a small number of indices MAY be declared using the shorthand format (taking notice of the whitespaces):
+Arrays with a small number of indices MAY be declared using the inline format (taking notice of the whitespaces):
 
     $arr = [1, 2, 3, 4];
 
-For larger arrays that do not fit on one line, the following format MUST be used:
+For larger arrays that do not fit on one line (80 characters), the multiline format MUST be used:
 
     $arr = [
         'First' => 1,
@@ -150,7 +147,7 @@ Similarly, the **elvis operator** MAY be used to provide a default value if a va
 
 ### Database
 
-All database tables MUST be named using **TitleCase**:
+All database tables MUST be named using **TitleCase** and singularly (to match model name):
 
     Event
     EventCategory
