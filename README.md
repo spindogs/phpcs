@@ -1,4 +1,4 @@
-### PSR-1 and PSR-2
+## PSR-1 and PSR-2
 
 All PHP code MUST abide by the standards as described by PSR-1 and PSR-2. These recommendations can be read in full at http://www.php-fig.org/psr/.
 
@@ -158,3 +158,17 @@ All database columns MUST be named using **snake_case**:
 
     event_id
     name
+
+## Code Editors
+
+### Atom
+
+You can install the Atom Beautify package and configure it to use Spindogs coding standards each time you save a PHP file https://github.com/Glavin001/atom-beautify.
+
+1. Download latest `php-cs-fixer.phar` to your PHP directory on local machine https://github.com/FriendsOfPHP/PHP-CS-Fixer#installation
+
+2. Clone this GIT repository to a location on your local machine https://github.com/spindogs/phpcs
+
+2. Install `atom-beautify` package from settings screen
+
+3.
