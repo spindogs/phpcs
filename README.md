@@ -169,6 +169,8 @@ You can install the Atom Beautify package and configure it to use Spindogs codin
 
 2. Clone this GIT repository to a location on your local machine https://github.com/spindogs/phpcs
 
-2. Install `atom-beautify` package from settings screen
+3. Install `atom-beautify` package from settings screen
 
-3.
+4. Configure path to the `php-cs-fixer.phar` executable
+
+5. Configure path to the Spindogs `.php_cs.dist` file
