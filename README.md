@@ -23,7 +23,7 @@ Whilst all new code (including new code added to old files) MUST follow these st
 
 ### Naming
 
-> PSR-1 standards do not make any recommendation regarding the naming of your code other than stating that a consistent style must be used across the board. As a result, Spindogs prefers the following naming styles:
+PSR-1 standards do not make any recommendation regarding the naming of your code other than stating that a consistent style must be used across the board. As a result, Spindogs prefers the following naming styles:
 
 * Constants MUST be declared in **UPPERCASE** (with underscore separators)
 * Class names MUST be declared in **TitleCase**
@@ -132,6 +132,8 @@ For larger arrays that do not fit on one line (80 characters), the multiline for
     ];
 
 ### Special operators
+
+> If you spotted the security implications in the examples below surrounding echoing variables out un-escaped then well done, give yourself a big pat on the back!
 
 For non complicated statements, the **terniary operator** format MAY be used (taking notice of the whitespaces):
 
