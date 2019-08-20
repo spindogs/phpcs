@@ -174,3 +174,5 @@ You can install the Atom Beautify package and configure it to use Spindogs codin
 4. Configure path to the `php-cs-fixer.phar` executable
 
 5. Configure path to the Spindogs `.php_cs.dist` file
+
+6. Enable PHP files to beautify on save
